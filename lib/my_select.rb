@@ -4,7 +4,7 @@ def my_select(collection)
    i = 0
    while i < collection.length
      x = yield(collection[i])
-     if x == false
+     if x == true
        collection.delete_at(i)
      end
      i += 1
