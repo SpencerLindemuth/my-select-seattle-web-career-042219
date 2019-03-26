@@ -7,6 +7,7 @@ def my_select(collection)
      if x == false
        collection.delete_at(i)
      end
+     i += 1
    end
    collection
  end
